@@ -52,3 +52,88 @@ nav a:hover
 {
     border-top: 2px solid #0065FC;
 }
+#localisationBox
+{
+    display: flex;
+}
+#boutonLocalisation
+{
+    background-color:#F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 7px;
+}
+#rechercheVille
+{
+    border: 1px solid #F2F2F2;
+    border-right: none;
+    padding: 7px;
+    outline: none;
+}
+#boutonRechercher
+{
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: none;
+}
+#BoutonsDuFiltre
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boutonFiltre
+{
+    margin-left: 15px;
+    display: flex;
+    position: relative;
+}
+.boutonFiltre :hover
+{
+    background-color: #DEEBFF;
+    border-color: #DEEBFF;
+}
+.iconeFiltre
+{
+    padding: 8px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+}
+.iconeFiltre i
+{
+    color: #0065FC;
+    width: 18px;
+    text-align: center;
+}
+.formeBouton
+{
+    border: 2px solid #F2F2F2;
+    display: flex;
+    padding: 8px 7px 5px 40px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: transparent;
+    outline: none;
+}
+#info
+{
+    font-size: 0.7em;
+}
+#iconeInfo
+{
+    padding: 5px 8px 5px 8px;
+    border-radius: 50%;
+    border: 1px solid #F2F2F2;
+    font-size: 0.7em;
+}
+#iconeInfo i
+{
+    color: #0065FC;
+}

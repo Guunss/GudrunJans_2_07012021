@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3bbcec81cb.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
   </head>
   <body>
@@ -19,11 +20,40 @@
             </ul>
     </header>
     <section id="SectionUn">
-      <h1></h1>
-      <p></p>
-      <form></form>
-      <div></div>
-      <p></p>
+      <h1>
+        Trouvez votre hébergement pour des vacances de rêve
+    </h1>
+    <p>
+        En plein centre ville ou en pleine nature
+    </p>
+    <form>
+        <div id="localisationBox">
+            <span id="boutonLocalisation"><i class="fas fa-map-marker-alt"></i></span>
+            <input type="search" id="rechercheVille" name="Ville" value="Marseille, France">
+            <button id="boutonRechercher">Rechercher</button>
+        </div>
+    </form>
+    <br />
+    <div id="BoutonsDuFiltre">
+        <p>Filtres</p>
+        <div class="boutonFiltre">
+            <span class="iconeFiltre"><i class="fas fa-money-bill-wave"></i></span>
+            <button class="formeBouton">Economique</button>
+        </div>
+        <div class="boutonFiltre">
+            <span class="iconeFiltre"><i class="fas fa-child"></i></span>
+            <button class="formeBouton">Familial</button>
+        </div>
+        <div class="boutonFiltre">
+            <span class="iconeFiltre"><i class="fas fa-heart"></i></i></span>
+            <button class="formeBouton">Romantique</button>
+        </div>
+        <div class="boutonFiltre">
+            <span class="iconeFiltre"><i class="fas fa-dog"></i></span>
+            <button class="formeBouton">Animaux autorisées</button>
+        </div>
+    </div>
+    <p id="info"><span id="iconeInfo"><i class="fas fa-info"></i></i></span> Plus de 500 logements sont disponible dans cette ville</p>
     </section>
     <section id="SectionDeux">
       <div id="Hebergements">
