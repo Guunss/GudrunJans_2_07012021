@@ -3,6 +3,7 @@ body
     max-width: 1140px;
     width: 90%;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
 a
 {
@@ -325,4 +326,35 @@ figcaption
     height: 90px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+Footer
+{
+    display: flex;
+    margin-left: -50px;
+    margin-right: -50px;
+    background-color: #F2F2F2;
+}
+#taillefooter
+{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: row ;
+}
+.TexteFooter
+{
+    width: 33%;
+}
+h2
+{
+    font-size: 1.15em;
+}
+Footer ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+footer li
+{
+    padding-bottom: 2px;
 }
