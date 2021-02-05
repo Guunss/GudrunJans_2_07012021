@@ -266,7 +266,63 @@ i.grey
 {
     margin-top: auto;
 }
-.HebergementPopulaire:hover , .HebergMarseille:hover
+.HebergementPopulaire:hover , .HebergMarseille:hover , .ImgGrand:hover , .ImgMoyen:hover , .ImgPetit:hover
 {
     transform: scale(1.08);
+}
+#sectionTrois
+{
+    border: 2px solid green;
+}
+#Activites
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+figure
+{
+    margin: 0px;
+    border-radius: 20px;
+}
+figcaption
+{
+    padding: 15px;
+}
+.ImgGrand
+{
+    box-shadow: 3px 3px 3px 3px #e4e3e3;
+}
+.ImgMoyen
+{
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px 3px #e4e3e3;
+}
+.ImgPetit
+{
+    box-shadow: 3px 3px 3px 3px #e4e3e3;
+}
+.ImgGrand img
+{
+    object-fit: cover;
+    width: 255px;
+    height: 310px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.ImgMoyen img
+{
+    object-fit: cover;
+    width: 255px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.ImgPetit img
+{
+    object-fit: cover;
+    width: 255px;
+    height: 90px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
