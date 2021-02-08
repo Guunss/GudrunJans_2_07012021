@@ -1,0 +1,117 @@
+body
+{
+    width: 95%;
+}
+#SectionDeux
+{
+    flex-direction: column-reverse;
+}
+aside
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#graph
+{
+    width: 97%;   
+}
+#LesPlusPopulaires
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.HebergementPopulaire
+{
+    width: 100%;
+    height: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.HebergementPopulaire:first-child
+{
+    margin-left: 0px;
+}
+#LesPlusPopulaires a
+{
+    width: 30%;
+}
+.TextePopulaire
+{
+    width: 64%;
+}
+.ImagePopulaire
+{
+    width: 33%;
+    height: 94%;
+}
+.ImagePopulaire img
+{
+    width: 100%;
+    height: 100%;
+}
+#Hebergements
+{
+    width: 100%;
+}
+#LesPlusPopulaires a , #HebergementsMarseille a
+{
+    width: 30%;
+}
+.ImageHebergement
+{
+    width: 100%;
+    margin: auto;
+}
+.ImageHebergement img
+{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+#Activites
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#une , #trois 
+{
+    width: 30%;
+    margin-right: 5%;
+}
+#deux a, #quatre a
+{
+    width: 46%;
+}
+.ImgMoyenGrand, .ImgMoyen , .ImgPetit
+{
+    width: 100%;
+}
+
+.ImgMoyenGrand img, .ImgMoyen img, .ImgPetit img, .ImgGrand img
+{
+    width: 100%;
+    height: 150px;
+}
+figcaption
+{
+    padding: 15px;
+}
+#deux, #quatre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+}
+footer
+{
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    padding-left: 5%;
+}

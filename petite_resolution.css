@@ -1,0 +1,197 @@
+body
+{
+    max-width: 768px;
+    width: 95%;
+    margin: none;
+}
+header
+{
+   flex-direction: column;
+}
+h1
+{
+    font-weight: bold;
+    padding-top: 0px;
+}
+.mobile
+{
+    display: inline;
+}
+#inscriptionMobile
+{
+    display: block;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 35px;
+}
+#inscriptionMobile a
+{
+    font-weight: bold;
+    color: #0065FC;
+}
+.full
+{
+    display: none;
+}
+nav
+{
+    width: 100%;
+    margin-top: 10px;
+}
+nav ul
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+nav li
+{
+    width: 50%;
+}
+nav a
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+nav a:hover, nav a.active
+{
+    border-top: none;
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+}
+nav a
+{
+    border-top: none;
+    border-bottom: 2px solid #F2F2F2;
+}
+#boutonRechercher
+{
+    border-radius: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#BoutonsDuFiltre
+{
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+}
+.boutonFiltre
+{
+    padding-bottom: 5px;
+}
+#info
+{
+    display: flex;
+    flex-direction: row;
+}
+#iconeInfo
+{
+    margin-right: 10px;
+}
+#SectionDeux
+{
+    flex-direction: column-reverse;
+}
+aside
+{
+    width: 100%;
+    margin: auto;
+    border-radius: 0px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+#Hebergements
+{
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+.HebergMarseille
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.ImageHebergement img
+{
+    height: 100px;
+    width: 100%;
+}
+.ImgGrand img , .ImgMoyen img , .ImgPetit img , .ImgMoyenGrand img
+{
+    height: 130px;
+    width: 100%;
+}
+.ImgMoyen, .ImgGrand, .ImgPetit, .HebergMarseille , .ImgMoyenGrand
+{
+    margin: 0px 0px 15px 0px;
+}
+#LesPlusPopulaires
+{
+    height: 360px;
+}
+footer
+{
+    margin: 0px -10px 0px -10px;
+}
+#taillefooter
+{
+    flex-direction: column;
+}
+.TexteFooter
+{
+    width: 90%;
+    margin: auto;
+}
+
+#afficher {
+    margin-left: 10px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#SectionDeux h1, #SectionTrois h1 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.HebergementPopulaire {
+    width: 95%;
+}
+
+#graph
+{
+    width: 95%;
+}
+
+.HebergementPopulaire:hover , .HebergMarseille:hover , .ImgGrand:hover , .ImgMoyen:hover , .ImgPetit:hover , .ImgMoyenGrand
+{
+    transform: none;
+}
+
+#Activites
+{
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rechercheVille
+{
+    width: 75%;
+}
+#localisationBox
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
