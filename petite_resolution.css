@@ -1,197 +1,173 @@
-body
-{
-    max-width: 768px;
-    width: 95%;
-    margin: none;
+body {
+  max-width: 768px;
+  width: 95%;
 }
-header
-{
-   flex-direction: column;
+header {
+  flex-direction: column;
 }
-h1
-{
-    font-weight: bold;
-    padding-top: 0px;
+h1 {
+  font-weight: bold;
+  padding-top: 0px;
 }
-.mobile
-{
-    display: inline;
+#inscriptionMobile {
+  display: block;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-right: 35px;
 }
-#inscriptionMobile
-{
-    display: block;
-    margin-left: auto;
-    padding-top: 10px;
-    padding-right: 35px;
+#inscriptionMobile a {
+  font-weight: bold;
+  color: #0065fc;
 }
-#inscriptionMobile a
-{
-    font-weight: bold;
-    color: #0065FC;
+.full {
+  display: none;
 }
-.full
-{
-    display: none;
+nav {
+  width: 100%;
+  margin-top: 10px;
 }
-nav
-{
-    width: 100%;
-    margin-top: 10px;
+nav ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
 }
-nav ul
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
+nav li {
+  width: 50%;
 }
-nav li
-{
-    width: 50%;
+nav a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  border-top: none;
+  border-bottom: 2px solid #f2f2f2;
 }
-nav a
-{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    width: 100%;
-    font-weight: bold;
+nav a:hover,
+nav a.active {
+  border-top: none;
+  border-bottom: 2px solid #0065fc;
+  color: #0065fc;
 }
-nav a:hover, nav a.active
-{
-    border-top: none;
-    border-bottom: 2px solid #0065FC;
-    color: #0065FC;
+#boutonRechercher {
+  border-radius: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-nav a
-{
-    border-top: none;
-    border-bottom: 2px solid #F2F2F2;
+#BoutonsDuFiltre {
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
 }
-#boutonRechercher
-{
-    border-radius: 20%;
-    padding-left: 10px;
-    padding-right: 10px;
+#localisationBox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
-
-#BoutonsDuFiltre
-{
-    flex-direction: column;
-    align-items: flex-start;
-    font-weight: bold;
+#rechercheVille {
+  width: 75%;
 }
-.boutonFiltre
-{
-    padding-bottom: 5px;
+.boutonFiltre {
+  padding-bottom: 5px;
 }
-#info
-{
-    display: flex;
-    flex-direction: row;
+#info {
+  display: flex;
+  flex-direction: row;
 }
-#iconeInfo
-{
-    margin-right: 10px;
+#iconeInfo {
+  margin-right: 10px;
 }
-#SectionDeux
-{
-    flex-direction: column-reverse;
+#SectionDeux {
+  flex-direction: column-reverse;
 }
-aside
-{
-    width: 100%;
-    margin: auto;
-    border-radius: 0px;
-    padding-bottom: 25px;
-    padding-top: 10px;
+#SectionDeux h1 {
+  margin-top: 40px;
 }
-
-#Hebergements
-{
-    width: 100%;
-    max-width: 100%;
-    background-color: white;
+#Hebergements {
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
 }
-.HebergMarseille
-{
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+.HebergMarseille {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
-.ImageHebergement img
-{
-    height: 100px;
-    width: 100%;
+.ImageHebergement img {
+  height: 100px;
+  width: 100%;
 }
-.ImgGrand img , .ImgMoyen img , .ImgPetit img , .ImgMoyenGrand img
-{
-    height: 130px;
-    width: 100%;
-}
-.ImgMoyen, .ImgGrand, .ImgPetit, .HebergMarseille , .ImgMoyenGrand
-{
-    margin: 0px 0px 15px 0px;
-}
-#LesPlusPopulaires
-{
-    height: 360px;
-}
-footer
-{
-    margin: 0px -10px 0px -10px;
-}
-#taillefooter
-{
-    flex-direction: column;
-}
-.TexteFooter
-{
-    width: 90%;
-    margin: auto;
-}
-
 #afficher {
-    margin-left: 10px;
-    font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 5px;
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
-#SectionDeux h1, #SectionTrois h1 {
-    margin-left: 10px;
-    margin-bottom: 20px;
+aside {
+  width: 100%;
+  margin: auto;
+  border-radius: 0px;
+  padding-bottom: 25px;
+  padding-top: 10px;
 }
-
+#SectionDeux h3, #graph i {
+  margin-top: 0px;
+}
+#graph {
+  width: 95%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+#LesPlusPopulaires {
+  height: 360px;
+}
 .HebergementPopulaire {
-    width: 95%;
+  width: 95%;
 }
-
-#graph
-{
-    width: 95%;
+.ImagePopulaire img {
+  height: 100px;
+  width: 100px;
 }
-
-.HebergementPopulaire:hover , .HebergMarseille:hover , .ImgGrand:hover , .ImgMoyen:hover , .ImgPetit:hover , .ImgMoyenGrand
-{
-    transform: none;
+#Activites {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#Activites
-{
-    width:95%;
-    margin-left: auto;
-    margin-right: auto;
+.ImgGrand,
+.ImgMoyenGrand,
+.ImgMoyen,
+.ImgPetit {
+  margin: 0px 0px 15px 0px;
 }
-
-#rechercheVille
-{
-    width: 75%;
+.ImgGrand img,
+.ImgMoyenGrand img,
+.ImgMoyen img,
+.ImgPetit img {
+  height: 130px;
+  width: 100%;
 }
-#localisationBox
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+#SectionDeux h1,
+#SectionTrois h1 {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.HebergementPopulaire:hover,
+.HebergMarseille:hover,
+.ImgGrand:hover,
+.ImgMoyen:hover,
+.ImgPetit:hover,
+.ImgMoyenGrand {
+  transform: none;
+}
+footer {
+  margin: 0px -10px 0px -10px;
+}
+#taillefooter {
+  flex-direction: column;
+}
+.TexteFooter {
+  width: 90%;
+  margin: auto;
 }

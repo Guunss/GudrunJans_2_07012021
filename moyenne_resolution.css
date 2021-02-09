@@ -1,117 +1,103 @@
-body
-{
-    width: 95%;
+body {
+  width: 95%;
 }
-#SectionDeux
-{
-    flex-direction: column-reverse;
+#SectionDeux {
+  flex-direction: column-reverse;
 }
-aside
-{
-    width: 100%;
-    margin-bottom: 20px;
+#SectionDeux h3 {
+  margin-bottom: 20px;
 }
-#graph
-{
-    width: 97%;   
+#Hebergements {
+  width: 100%;
 }
-#LesPlusPopulaires
-{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
+.ImageHebergement {
+  width: 100%;
+  margin: auto;
 }
-.HebergementPopulaire
-{
-    width: 100%;
-    height: 90%;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.ImageHebergement img {
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
 }
-.HebergementPopulaire:first-child
-{
-    margin-left: 0px;
+aside {
+  width: 100%;
+  margin-bottom: 20px;
 }
-#LesPlusPopulaires a
-{
-    width: 30%;
+#graph {
+  width: 97%;
 }
-.TextePopulaire
-{
-    width: 64%;
+#graph i {
+  margin-bottom: 20px;
 }
-.ImagePopulaire
-{
-    width: 33%;
-    height: 94%;
+#LesPlusPopulaires {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
 }
-.ImagePopulaire img
-{
-    width: 100%;
-    height: 100%;
+#LesPlusPopulaires a {
+  width: 30%;
 }
-#Hebergements
-{
-    width: 100%;
+.HebergementPopulaire {
+  width: 100%;
+  height: 90%;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
-#LesPlusPopulaires a , #HebergementsMarseille a
-{
-    width: 30%;
+.HebergementPopulaire:first-child {
+  margin-left: 0px;
 }
-.ImageHebergement
-{
-    width: 100%;
-    margin: auto;
+.ImagePopulaire {
+  width: 33%;
+  height: 94%;
 }
-.ImageHebergement img
-{
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3px;
+.ImagePopulaire img {
+  width: 100%;
+  height: 100%;
 }
-#Activites
-{
-    display: flex;
-    flex-wrap: wrap;
+.TextePopulaire {
+  width: 64%;
 }
-#une , #trois 
-{
-    width: 30%;
-    margin-right: 5%;
+#LesPlusPopulaires a,
+#HebergementsMarseille a {
+  width: 30%;
 }
-#deux a, #quatre a
-{
-    width: 46%;
+#Activites {
+  display: flex;
+  flex-wrap: wrap;
 }
-.ImgMoyenGrand, .ImgMoyen , .ImgPetit
-{
-    width: 100%;
+#une,
+#trois {
+  width: 30%;
+  margin-right: 5%;
 }
-
-.ImgMoyenGrand img, .ImgMoyen img, .ImgPetit img, .ImgGrand img
-{
-    width: 100%;
-    height: 150px;
+#deux,
+#quatre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
 }
-figcaption
-{
-    padding: 15px;
+#deux a,
+#quatre a {
+  width: 46%;
 }
-#deux, #quatre
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 65%;
+.ImgGrand img,
+.ImgMoyenGrand img,
+.ImgMoyen img,
+.ImgPetit img {
+  width: 100%;
+  height: 150px;
 }
-footer
-{
-    margin-left: -2.5%;
-    margin-right: -2.5%;
-    padding-left: 5%;
+figcaption {
+  padding: 15px;
+}
+footer {
+  margin-left: -2.5%;
+  margin-right: -2.5%;
+  padding-left: 5%;
 }

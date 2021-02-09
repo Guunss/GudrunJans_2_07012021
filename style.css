@@ -10,11 +10,9 @@ a {
   color: black;
 }
 h1 {
-  font-size: 1.17em;
+  font-size: 1.5em;
+  font-weight: bolder;
   padding-top: 15px;
-}
-.mobile {
-  display: none;
 }
 header {
   display: flex;
@@ -127,7 +125,7 @@ nav a.active {
   font-weight: bold;
 }
 #info {
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 #iconeInfo {
   padding: 5px 8px 5px 8px;
@@ -137,6 +135,7 @@ nav a.active {
 }
 #iconeInfo i {
   color: #0065fc;
+  vertical-align: center;
 }
 #SectionDeux {
   display: flex;
@@ -144,6 +143,13 @@ nav a.active {
   flex-wrap: wrap;
 }
 #SectionDeux h1 {
+  margin-left: 27px;
+}
+#SectionDeux h3 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding-top: 15px;
+  margin-bottom: 0px;
   margin-left: 27px;
 }
 #Hebergements {
@@ -195,9 +201,17 @@ aside {
   align-items: center;
   width: 90%;
 }
+#graph i {
+  font-size: 1.50em;
+  font-weight: bolder;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 27px;
+    margin-top: 24px;
+}
 #LesPlusPopulaires {
   max-width: 100%;
-  height: 470px;
+  height: 490px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -216,8 +230,8 @@ aside {
 }
 .ImagePopulaire img {
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
@@ -230,6 +244,7 @@ i.grey {
 }
 #afficher {
   margin: 0px 0px 27px 27px;
+  font-weight: bolder;
 }
 .TextePopulaire {
   padding-left: 10px;
@@ -238,14 +253,6 @@ i.grey {
 }
 .TextePopulaire .etoile {
   margin-top: auto;
-}
-.HebergementPopulaire:hover,
-.HebergMarseille:hover,
-.ImgGrand:hover,
-.ImgMoyen:hover,
-.ImgPetit:hover,
-.ImgMoyenGrand:hover {
-  transform: scale(1.08);
 }
 #SectionTrois {
   width: 100%;
@@ -262,8 +269,7 @@ figure {
 figcaption {
   padding: 15px;
 }
-.ImgGrand,
-.ImgMoyen {
+.ImgGrand {
   box-shadow: 3px 3px 3px 3px #e4e3e3;
 }
 .ImgMoyenGrand,
@@ -281,20 +287,17 @@ figcaption {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.ImgMoyen img {
-  object-fit: cover;
-  width: 255px;
-  height: 120px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-#parc img {
-  padding-top: 20px;
-}
 .ImgMoyenGrand img {
   object-fit: cover;
   width: 255px;
   height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ImgMoyen img {
+  object-fit: cover;
+  width: 255px;
+  height: 120px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -304,6 +307,17 @@ figcaption {
   height: 90px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+#parc img {
+  padding-top: 20px;
+}
+.HebergementPopulaire:hover,
+.HebergMarseille:hover,
+.ImgGrand:hover,
+.ImgMoyen:hover,
+.ImgPetit:hover,
+.ImgMoyenGrand:hover {
+  transform: scale(1.08);
 }
 footer {
   display: flex;
@@ -316,6 +330,7 @@ footer {
   margin: auto;
   display: flex;
   flex-direction: row;
+  padding-top: 20px;
 }
 .TexteFooter {
   width: 33%;
