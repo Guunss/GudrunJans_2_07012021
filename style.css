@@ -1,3 +1,4 @@
+/*Feuille de style globale pour le site reservia*/
 body {
   width: 1140px;
   margin: auto;
@@ -5,6 +6,7 @@ body {
   padding-right: 10px;
   padding-left: 10px;
 }
+/*par defaut pas de décoration pour les liens*/
 a {
   text-decoration: none;
   color: black;
@@ -23,9 +25,11 @@ header {
   display: flex;
   align-items: center;
 }
+/*Masquage deuxième bouton s'inscrire destiné aux sites mobiles*/
 #inscriptionMobile {
   display: none;
 }
+/*Masquage de l'icone rechercher destiné aux sites mobiles*/
 #boutonRechercherPortable {
   display: none;
 }
@@ -59,6 +63,7 @@ nav a:hover,
 nav a.active {
   border-top: 2px solid #0065fc;
 }
+/*style pour le champ rechercher*/
 #localisationBox {
   display: flex;
 }
@@ -82,6 +87,8 @@ nav a.active {
   border-top-right-radius: 10px;
   outline: none;
 }
+/* fin bouton rechercher */
+/* Style du bouton filtre */
 #BoutonsDuFiltre {
   display: flex;
   align-items: center;
@@ -124,6 +131,7 @@ nav a.active {
   outline: none;
   font-weight: bold;
 }
+/* fin du bouton filtre */
 #info {
   font-size: 0.8em;
 }
@@ -137,6 +145,8 @@ nav a.active {
   color: #0065fc;
   vertical-align: center;
 }
+/*-----------------------Début Section 2------------------------------------*/
+/* Section concernant les hebergements */
 #SectionDeux {
   display: flex;
   justify-content: space-between;
@@ -254,6 +264,8 @@ i.grey {
 .TextePopulaire .etoile {
   margin-top: auto;
 }
+/*-----------------------Début Section 3------------------------------------*/
+/* Section concernant les activités à Marseille */
 #SectionTrois {
   width: 100%;
 }
@@ -319,6 +331,7 @@ figcaption {
 .ImgMoyenGrand:hover {
   transform: scale(1.08);
 }
+/*-------------------------Début Footer----------------------------------*/
 footer {
   display: flex;
   margin-left: -50px;
