@@ -88,6 +88,10 @@ nav a.active {
   border-top-right-radius: 10px;
   outline: none;
 }
+/*on cache le bouton loupe en pleine page */
+.mobile {
+  display: none;
+}
 /* fin bouton rechercher */
 /* Style du bouton filtre */
 #BoutonsDuFiltre {

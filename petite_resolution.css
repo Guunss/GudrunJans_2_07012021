@@ -55,6 +55,11 @@ nav a.active {
   padding-left: 10px;
   padding-right: 10px;
 }
+/* on affiche l'icone recherche à la place du texte */
+.mobile
+{
+    display: inline;
+}
 #BoutonsDuFiltre {
   flex-direction: column;
   align-items: flex-start;
@@ -95,7 +100,7 @@ nav a.active {
   margin-bottom: 20px;
 }
 #HebergementsMarseille a {
-  height: 224px;
+  height: 200px;
 }
 #HebergementsMarseille {
   flex-direction: column;
@@ -164,7 +169,7 @@ aside {
 .ImgGrand:hover,
 .ImgMoyen:hover,
 .ImgPetit:hover,
-.ImgMoyenGrand {
+.ImgMoyenGrand:hover {
   transform: none;
 }
 footer {
