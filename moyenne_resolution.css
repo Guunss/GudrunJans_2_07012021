@@ -68,7 +68,6 @@ aside {
   width: 30%;
 }
 #Activites {
-  display: flex;
   flex-wrap: wrap;
 }
 #une,

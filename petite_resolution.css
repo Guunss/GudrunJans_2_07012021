@@ -42,7 +42,6 @@ nav a {
   padding-bottom: 10px;
   text-align: center;
   width: 100%;
-  font-weight: bold;
   border-top: none;
   border-bottom: 2px solid #f2f2f2;
 }
@@ -50,7 +49,6 @@ nav a:hover,
 nav a.active {
   border-top: none;
   border-bottom: 2px solid #0065fc;
-  color: #0065fc;
 }
 #boutonRechercher {
   border-radius: 20%;
@@ -60,7 +58,6 @@ nav a.active {
 #BoutonsDuFiltre {
   flex-direction: column;
   align-items: flex-start;
-  font-weight: bold;
 }
 #localisationBox {
   margin-left: auto;
@@ -115,6 +112,7 @@ aside {
 }
 #SectionDeux h3, #graph i {
   margin-top: 0px;
+  margin-left: 15px;
 }
 #graph {
   width: 95%;
@@ -151,7 +149,7 @@ aside {
 }
 #SectionDeux h1,
 #SectionTrois h1 {
-  margin-left: 10px;
+  margin-left: 15px;
   margin-bottom: 20px;
 }
 .HebergementPopulaire:hover,

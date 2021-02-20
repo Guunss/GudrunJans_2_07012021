@@ -51,8 +51,8 @@ nav li {
   display: flex;
 }
 nav a {
-  text-decoration: none;
   color: #0065fc;
+  font-weight: bold;
   padding: 32px 15px 32px 15px;
   border-top: 2px solid white;
 }
@@ -61,6 +61,7 @@ nav a:visited {
 }
 nav a:hover,
 nav a.active {
+  color: #0065fc;
   border-top: 2px solid #0065fc;
 }
 /*style pour le champ rechercher*/
@@ -93,6 +94,7 @@ nav a.active {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 #containerBouton {
   display: flex;

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- head -->
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,7 +28,11 @@
     <title>Reservia</title>
     <link rel="icon" type="image/png" href="Reservia@3x.png" />
   </head>
+
+  <!-- body -->
+
   <body>
+    <!-- l'entête de la page -->
     <header>
       <div id="logo">
         <img id="logoImg" src="Reservia@3x.png" alt="Logo de reservia" />
@@ -44,9 +50,13 @@
         </ul>
       </nav>
     </header>
+
+    <!-- la section recherche et filtres -->
     <section id="SectionUn">
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
+
+      <!-- la partie recherche de localité -->
       <form>
         <div id="localisationBox">
           <span id="boutonLocalisation"
@@ -65,9 +75,12 @@
         </div>
       </form>
       <br />
+
+      <!--  filtres -->
       <div id="BoutonsDuFiltre">
         <p>Filtres</p>
         <div id="containerBouton">
+          <!-- un bouton de filtre -->
           <div class="boutonFiltre">
             <span class="iconeFiltre"
               ><i class="fas fa-money-bill-wave"></i
@@ -94,6 +107,8 @@
       </p>
     </section>
     <br />
+
+    <!-- la section contenant les hébergements -->
     <section id="SectionDeux">
       <div id="Hebergements">
         <h1 id="ancreHebergement">Hébergements à Marseille</h1>
@@ -108,7 +123,7 @@
               </div>
               <div class="TexteHebergement">
                 <p><strong>Auberge La Cannebière</strong></p>
-                <p>Nuit à partir de 25€</p>
+                <p>Nuit à partir de <strong>25€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -129,7 +144,7 @@
               </div>
               <div class="TexteHebergement">
                 <p><strong>Hôtel du port</strong></p>
-                <p>Nuit à partir de 52€</p>
+                <p>Nuit à partir de 52<strong>€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -150,7 +165,7 @@
               </div>
               <div class="TexteHebergement">
                 <p><strong>Hôtel Les Mouettes</strong></p>
-                <p>Nuit à partir de 76€</p>
+                <p>Nuit à partir de 76<strong>€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -171,7 +186,7 @@
               </div>
               <div class="TexteHebergement">
                 <p><strong>Hôtel de la mer</strong></p>
-                <p>Nuit à partir de 46€</p>
+                <p>Nuit à partir de 46<strong>€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -192,7 +207,7 @@
               </div>
               <div class="TexteHebergement">
                 <p><strong>Auberge Le Panier</strong></p>
-                <p>Nuit à partir de 23€</p>
+                <p>Nuit à partir de <strong>23 €</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -213,7 +228,7 @@
               </div>
               <div class="TexteHebergement">
                 <p><strong>Hôtel chez Amina</strong></p>
-                <p>Nuit à partir de 96€</p>
+                <p>Nuit à partir de 96<strong>€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -227,6 +242,7 @@
         </div>
         <p id="afficher">Afficher plus</p>
       </div>
+      <!-- les hébergements populaires -->
       <aside>
         <div id="graph">
           <h3>Les plus populaires</h3>
@@ -243,7 +259,7 @@
               </div>
               <div class="TextePopulaire">
                 <p><strong>Hôtel Le soleil du matin</strong></p>
-                <p>Nuit à partir de 128€</p>
+                <p>Nuit à partir de 128<strong>€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -264,7 +280,7 @@
               </div>
               <div class="TextePopulaire">
                 <p><strong>Au coeur de l'eau Chambres d'hôtes</strong></p>
-                <p>Nuit à partir de 71€</p>
+                <p>Nuit à partir de 71<strong>€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -285,7 +301,7 @@
               </div>
               <div class="TextePopulaire">
                 <p><strong>Hôtel Tout bleu et Blanc</strong></p>
-                <p>Nuit à partir de 65€</p>
+                <p>Nuit à partir de 65<strong>€</strong></p>
                 <div class="etoile">
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
                   <i class="fas fa-star hostingMainCardGradeIcon"></i>
@@ -299,9 +315,12 @@
         </div>
       </aside>
     </section>
+
+    <!-- la section contenant les activités -->
     <section id="SectionTrois">
       <h1 id="ancreActivites">Activités à Marseille</h1>
       <div id="Activites">
+        <!--colonne 1-->
         <div id="une">
           <a href="#">
             <figure class="ImgGrand">
@@ -313,6 +332,7 @@
             </figure>
           </a>
         </div>
+        <!--colonne 2-->
         <div id="deux">
           <a href="#">
             <figure class="ImgMoyenGrand">
@@ -333,6 +353,7 @@
             </figure>
           </a>
         </div>
+        <!--colonne 3-->
         <div id="trois">
           <a href="#">
             <figure class="ImgGrand">
@@ -344,6 +365,7 @@
             </figure>
           </a>
         </div>
+        <!--colonne 4-->
         <div id="quatre">
           <a href="#">
             <figure class="ImgMoyen">
@@ -369,6 +391,8 @@
     </section>
     <br />
     <br />
+
+    <!-- le pied de page -->
     <footer>
       <div id="taillefooter">
         <div class="TexteFooter">
