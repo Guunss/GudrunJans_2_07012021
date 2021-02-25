@@ -3,22 +3,23 @@ body {
   max-width: 768px;
   width: 95%;
 }
-header {
-  flex-direction: column;
-}
 h1 {
   font-weight: bold;
   padding-top: 0px;
 }
-#inscriptionMobile {
-  display: block;
-  margin-left: auto;
-  padding-top: 10px;
-  padding-right: 35px;
+#inscription {
+  order: 1;
 }
-#inscriptionMobile a {
-  font-weight: bold;
+#inscription a {
+  padding-top: 21px;
+  padding-right: 5px;
+  font-weight: bolder;
   color: #0065fc;
+}
+#inscription a,
+#inscription a:hover,
+#inscription a.active {
+  border: none;
 }
 .full {
   display: none;
@@ -26,6 +27,7 @@ h1 {
 nav {
   width: 100%;
   margin-top: 10px;
+  order: 2;
 }
 nav ul {
   width: 100%;
@@ -56,9 +58,8 @@ nav a.active {
   padding-right: 10px;
 }
 /* on affiche l'icone recherche à la place du texte */
-.mobile
-{
-    display: inline;
+.mobile {
+  display: inline;
 }
 #BoutonsDuFiltre {
   flex-direction: column;
@@ -121,7 +122,8 @@ aside {
   padding-bottom: 25px;
   padding-top: 10px;
 }
-#SectionDeux h3, #graph i {
+#SectionDeux h3,
+#graph i {
   margin-top: 0px;
   margin-left: 15px;
 }

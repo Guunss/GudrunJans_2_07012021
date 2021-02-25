@@ -18,17 +18,15 @@ h1 {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
 }
 #logo {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
-/*Masquage deuxième bouton s'inscrire destiné aux sites mobiles*/
-#inscriptionMobile {
-  display: none;
-}
+
 /*Masquage de l'icone rechercher destiné aux sites mobiles*/
 #boutonRechercherPortable {
   display: none;
@@ -50,20 +48,29 @@ nav ul {
 nav li {
   display: flex;
 }
-nav a {
+nav a,
+#inscription a {
   color: #0065fc;
   font-weight: bold;
   padding: 32px 15px 15px 15px;
   border-top: 2px solid white;
 }
-nav a:visited {
+nav a:visited,
+#inscription a {
   color: black;
 }
 nav a:hover,
-nav a.active {
+nav a.active,
+#inscription a:hover,
+#inscription a.active {
   color: #0065fc;
   border-color: #0065fc;
 }
+#inscription {
+  display: flex;
+  align-items: flex-end;
+}
+
 /*style pour le champ rechercher*/
 #localisationBox {
   display: flex;
@@ -218,12 +225,12 @@ aside {
   width: 90%;
 }
 #graph i {
-  font-size: 1.50em;
+  font-size: 1.5em;
   font-weight: bolder;
-    padding-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 27px;
-    margin-top: 24px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 27px;
+  margin-top: 24px;
 }
 #LesPlusPopulaires {
   max-width: 100%;
